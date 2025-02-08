@@ -62,7 +62,7 @@ export default function makeHomePage() {
             textArea.classList.add("text-area");
 
             const text1 = document.createElement("p");
-            text1.textContent = "123 Forest Drive, Forestville, Maine";
+            text1.textContent = "Jl. Salemba Tengah, No.4F, Paseban, Senen, Kota Jakarta Pusat.";
 
             textArea.appendChild(text1);
 

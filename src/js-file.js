@@ -1,6 +1,7 @@
 import "./styles.css";
 import HomePage from "./home.js";
 import MenuPage from "./menu.js";
+import ContactPage from "./contact.js";
 
 const container = document.querySelector("#content");
 
@@ -22,4 +23,12 @@ menuBtn.addEventListener("click", () => {
     container.textContent = '';
 
     MenuPage();
+});
+
+const contactBtn = document.querySelector("#contact");
+
+contactBtn.addEventListener("click", () => {
+    container.textContent = '';
+
+    ContactPage();
 });
